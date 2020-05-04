@@ -10,3 +10,19 @@ body {
 .letter-spacing {
   letter-spacing: 0.5rem;
 }
+.header-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background: url("./images/homeBcg.jpeg");
+  min-height: calc(100vh - 56px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.default-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background: url("./images/defaultBcg.jpeg");
+  min-height: calc(100vh - 56px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
