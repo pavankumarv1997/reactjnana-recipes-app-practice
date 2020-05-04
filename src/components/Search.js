@@ -15,13 +15,11 @@ export default class Search extends Component {
                 </strong>
               </h2>
               <form onSubmit={handleSubmit}>
-                <label htmlFor="search" className="text-capitalize">
-                  Type recipes separated by commas
-                </label>
                 <div className="input-group">
                   <input
                     type="text"
-                    className="form-control"
+                    name="search"
+                    className="form-control text-capitalize"
                     placeholder="Search caroot,beetroot"
                     value={search}
                     onChange={handleChange}
