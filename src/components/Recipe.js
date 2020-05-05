@@ -2,7 +2,13 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 export default class Recipe extends Component {
   render() {
-    const { title, publisher, recipe_id, source_url, image_url } = this.props;
+    const {
+      title,
+      publisher,
+      recipe_id,
+      source_url,
+      image_url,
+    } = this.props.recipes;
 
     return (
       <div className="col-10 mx-auto col-md-6 col-lg-4 my-3 ">

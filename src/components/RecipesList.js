@@ -13,14 +13,7 @@ export default class RecipeList extends Component {
           </div>
           <div className="row mt-3">
             {recipes.map((recipes) => (
-              <Recipe
-                key={recipes.recipe_id}
-                title={recipes.title}
-                publisher={recipes.publisher}
-                recipe_id={recipes.recipe_id}
-                source_url={recipes.source_url}
-                image_url={recipes.image_url}
-              />
+              <Recipe key={recipes.recipe_id} recipes={recipes} />
             ))}
           </div>
         </div>
